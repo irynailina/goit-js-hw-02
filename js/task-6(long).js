@@ -6,13 +6,10 @@ let numbers = [];
 let total = 0;
 
 while (total > -1) {
-    
     numbers=[]; 
     total = 0;
 
-
 do  { 
-
     input = prompt('Please, enter a number'); 
 
     if (Number.isNaN(Number(input)) || input === '') {
@@ -25,9 +22,7 @@ do  {
 }
     
      while (input !== null);
-
         for (const number of numbers) {
-
             total += Number(number);
         }
 
@@ -35,7 +30,6 @@ do  {
             alert(`Общая сумма чисeл равна ${total}`);
         } else { 
         alert('Enter a number!');}
-
 }
 
     
